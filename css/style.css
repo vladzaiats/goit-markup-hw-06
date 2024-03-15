@@ -329,7 +329,7 @@ header .logo span {
 }
 .footer.flex {
   align-items: baseline;
-  justify-content:center;
+  justify-content: center;
 }
 .div-logo {
   margin-right: 120px;
@@ -389,7 +389,8 @@ header .logo span {
   height: 100%;
   z-index: 999;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* opacity: 0;
   visibility: hidden;
   pointer-events: none; */
@@ -423,12 +424,13 @@ header .logo span {
   top: 24px;
   right: 24px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #e7e9fc; 
+  background-color: #e7e9fc;
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.icon-close{
+.icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-text {
@@ -457,12 +459,11 @@ header .logo span {
   width: 360px;
   position: relative;
 }
-.modal-label-group-textarea{
-  margin-bottom: 16px
+.modal-label-group-textarea {
+  margin-bottom: 16px;
 }
-.input-div{
+.input-div {
   position: relative;
-
 }
 .modal-label-group .icon {
   position: absolute;
@@ -487,8 +488,8 @@ header .logo span {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input-area:focus{
-  border-color: #4D5AE5;
+.modal-input-area:focus {
+  border-color: #4d5ae5;
 }
 .modal-input-area::placeholder {
   position: absolute;
@@ -499,29 +500,29 @@ header .logo span {
   width: 100%;
   height: 40px;
   padding: 0 0 0 38px;
-  border: 1px solid rgba(46, 47, 66, 0.4); 
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-label-group.flex{
+.modal-label-group.flex {
   margin-bottom: 24px;
 }
 .modal-label-text {
   position: relative;
-  text-wrap: nowrap; 
+  text-wrap: nowrap;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 .modal-input:hover + .icon,
-.modal-input:focus + .icon{
-  fill: #4D5AE5;
+.modal-input:focus + .icon {
+  fill: #4d5ae5;
 }
-.modal-input:focus{
-  border-color: #4D5AE5;
+.modal-input:focus {
+  border-color: #4d5ae5;
 }
 .span-privacy-policy {
   line-height: 1.33333;
@@ -529,26 +530,27 @@ header .logo span {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-.pseudo-check{
+.pseudo-check {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent; 
+  fill: transparent;
   width: 16px;
   height: 16px;
   cursor: pointer;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input.visually-hidden:checked + .modal-label-text 
-.pseudo-check{
+.modal-input.visually-hidden:checked + .modal-label-text .pseudo-check {
   background-color: #404bbf;
   border: none;
-  fill:#F4F4FD;
+  fill: #f4f4fd;
 }
-.modal-link{
-  color:#4d5ae5; 
+.modal-link {
+  color: #4d5ae5;
   display: inline-block;
 }
 .modal-close-btn:hover,
@@ -557,14 +559,14 @@ header .logo span {
   border-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
-  fill: #ffffff
+  fill: #ffffff;
 }
-.modal-btn{
+.modal-btn {
   margin-right: auto;
   margin-left: auto;
   min-width: 169px;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ==================form=================== */
@@ -590,21 +592,20 @@ header .logo span {
   padding: 0 16px;
   border: 1px solid #fff;
   border-radius: 4px;
-  background-color: transparent; 
+  background-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #ffffff;
-
 }
 .form-container .btn-form {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
   border-radius: 4px;
   padding: 8px 24px;
-  min-width: 165px; 
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
-  color: #ffffff 
+  color: #ffffff;
 }
 .form-container .btn-form:hover,
 .form-container .btn-form:focus {
@@ -614,7 +615,7 @@ header .logo span {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color #ffffff; 
+  color: #ffffff;
 }
 .form-container .icon-form {
   margin-left: 16px;
